@@ -45,7 +45,7 @@ head combined/final.contigs.fa
 Things we can discuss while assembling:
 
 * what format are the input files in?
-* [how well does assembly work?]() -- presentation
+* [how well does assembly work?](https://osf.io/4a2k3/) -- presentation
 * where should I do my computation?
 * what is the output of an assembler?
 
@@ -134,3 +134,8 @@ You can also [view my copy on github](https://github.com/ngs-docs/2017-mbl-stamp
 ----
 
 Note - above, we quantified the *contigs*.  If you want gene-specific abundance quantification, you can do so after annotation; see [these tutorials](https://2017-dibsi-metagenomics.readthedocs.io/en/latest/#thursday-day-4) that involve first annotation with Prokka.
+
+Questions at end of period, if time --
+
+* how would you validate/evaluate the abundance quantification?
+* what would next steps be for making use of the abundance quant?
