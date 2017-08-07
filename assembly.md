@@ -45,7 +45,7 @@ head combined/final.contigs.fa
 Things we can discuss while assembling:
 
 * what format are the input files in?
-* how well does assembly work?
+* [how well does assembly work?]() -- presentation
 * where should I do my computation?
 * what is the output of an assembler?
 
@@ -128,5 +128,9 @@ paste *counts |cut -f 1,2,4 > combined-counts.tsv
 ```
 
 This file can now be downloaded, loaded into Excel and plotted.
+
+You can also [view my copy on github](https://github.com/ngs-docs/2017-mbl-stamps/blob/master/combined-counts.tsv), or [download it here](https://raw.githubusercontent.com/ngs-docs/2017-mbl-stamps/master/combined-counts.tsv).
+
+----
 
 Note - above, we quantified the *contigs*.  If you want gene-specific abundance quantification, you can do so after annotation; see [these tutorials](https://2017-dibsi-metagenomics.readthedocs.io/en/latest/#thursday-day-4) that involve first annotation with Prokka.
